@@ -1,0 +1,477 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?98334585');
+  src: url('font/fontello.eot?98334585#iefix') format('embedded-opentype'),
+  url('font/fontello.woff2?98334585') format('woff2'),
+  url('font/fontello.woff?98334585') format('woff'),
+  url('font/fontello.ttf?98334585') format('truetype'),
+  url('font/fontello.svg?98334585#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?25570722#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-terminoslegalespositivo:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-ticketpositivo:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-todobuscador:before {
+  content: '\e802';
+}
+
+/* '' */
+.icon-travelbuscador:before {
+  content: '\e803';
+}
+
+/* '' */
+.icon-userpositivo:before {
+  content: '\e804';
+}
+
+/* '' */
+.icon-valoracionespositivo:before {
+  content: '\e805';
+}
+
+/* '' */
+.icon-verpositivo:before {
+  content: '\e806';
+}
+
+/* '' */
+.icon-afiliadospositivo:before {
+  content: '\e807';
+}
+
+/* '' */
+.icon-ajustespositivo:before {
+  content: '\e808';
+}
+
+/* '' */
+.icon-alertaforbiddenpositivo:before {
+  content: '\e809';
+}
+
+/* '' */
+.icon-alertainfopositivo:before {
+  content: '\e80a';
+}
+
+/* '' */
+.icon-alertasuccesspositivo:before {
+  content: '\e80b';
+}
+
+/* '' */
+.icon-alertawarningpositivo:before {
+  content: '\e80c';
+}
+
+/* '' */
+.icon-blankstar:before {
+  content: '\e80d';
+}
+
+/* '' */
+.icon-blankstarnegative:before {
+  content: '\e80e';
+}
+
+/* '' */
+.icon-brokerbuscador:before {
+  content: '\e80f';
+}
+
+/* '' */
+.icon-buscarpositivo:before {
+  content: '\e810';
+}
+
+/* '' */
+.icon-calendariopositivo:before {
+  content: '\e811';
+}
+
+/* '' */
+.icon-camarapositivo:before {
+  content: '\e812';
+}
+
+/* '' */
+.icon-close:before {
+  content: '\e813';
+}
+
+/* '' */
+.icon-comerciopositivo:before {
+  content: '\e814';
+}
+
+/* '' */
+.icon-compartirpositivo:before {
+  content: '\e815';
+}
+
+/* '' */
+.icon-conopositivo:before {
+  content: '\e816';
+}
+
+/* '' */
+.icon-consultingbuscador:before {
+  content: '\e817';
+}
+
+/* '' */
+.icon-consultorpositivo:before {
+  content: '\e818';
+}
+
+/* '' */
+.icon-dashboardpositivo:before {
+  content: '\e819';
+}
+
+/* '' */
+.icon-databuscador:before {
+  content: '\e81a';
+}
+
+/* '' */
+.icon-datosclientepositivo:before {
+  content: '\e81b';
+}
+
+/* '' */
+.icon-datospersonalespositivo:before {
+  content: '\e81c';
+}
+
+/* '' */
+.icon-detalles:before {
+  content: '\e81d';
+}
+
+/* '' */
+.icon-documentospositivo:before {
+  content: '\e81e';
+}
+
+/* '' */
+.icon-editarpositivo:before {
+  content: '\e81f';
+}
+
+/* '' */
+.icon-eliminarpositivo:before {
+  content: '\e820';
+}
+
+/* '' */
+.icon-energybuscador:before {
+  content: '\e821';
+}
+
+/* '' */
+.icon-entrarpositivo:before {
+  content: '\e822';
+}
+
+/* '' */
+.icon-enviarpositivo:before {
+  content: '\e823';
+}
+
+/* '' */
+.icon-escanerqrpositivo:before {
+  content: '\e824';
+}
+
+/* '' */
+.icon-eurosahorradospositivo:before {
+  content: '\e825';
+}
+
+/* '' */
+.icon-face-id:before {
+  content: '\e826';
+}
+
+/* '' */
+.icon-filtrospositivo:before {
+  content: '\e827';
+}
+
+/* '' */
+.icon-fullstarnegative:before {
+  content: '\e828';
+}
+
+/* '' */
+.icon-fullstarpositive:before {
+  content: '\e829';
+}
+
+/* '' */
+.icon-galeriapositivo:before {
+  content: '\e82a';
+}
+
+/* '' */
+.icon-goback:before {
+  content: '\e82b';
+}
+
+/* '' */
+.icon-halfstarnegative:before {
+  content: '\e82c';
+}
+
+/* '' */
+.icon-halfstarpositive:before {
+  content: '\e82d';
+}
+
+/* '' */
+.icon-huchapositivo:before {
+  content: '\e82e';
+}
+
+/* '' */
+.icon-icon:before {
+  content: '\e82f';
+}
+
+/* '' */
+.icon-iconnegative:before {
+  content: '\e830';
+}
+
+/* '' */
+.icon-invitarpositivo:before {
+  content: '\e831';
+}
+
+/* '' */
+.icon-localizacionpositivo:before {
+  content: '\e832';
+}
+
+/* '' */
+.icon-logo:before {
+  content: '\e833';
+}
+
+/* '' */
+.icon-logonegative:before {
+  content: '\e834';
+}
+
+/* '' */
+.icon-máspositivo:before {
+  content: '\e835';
+}
+
+/* '' */
+.icon-mensajepositivo:before {
+  content: '\e836';
+}
+
+/* '' */
+.icon-menupositivo:before {
+  content: '\e837';
+}
+
+/* '' */
+.icon-mobilebuscador:before {
+  content: '\e838';
+}
+
+/* '' */
+.icon-notificacionafiliados:before {
+  content: '\e839';
+}
+
+/* '' */
+.icon-notificacioncontrato:before {
+  content: '\e83a';
+}
+
+/* '' */
+.icon-notificacionexpirar:before {
+  content: '\e83b';
+}
+
+/* '' */
+.icon-notificacionpensados:before {
+  content: '\e83c';
+}
+
+/* '' */
+.icon-notificacionpositivo:before {
+  content: '\e83d';
+}
+
+/* '' */
+.icon-notificacionrango:before {
+  content: '\e83e';
+}
+
+/* '' */
+.icon-notificacionsaldo:before {
+  content: '\e83f';
+}
+
+/* '' */
+.icon-notificacionvalorar:before {
+  content: '\e840';
+}
+
+/* '' */
+.icon-noverpositivo:before {
+  content: '\e841';
+}
+
+/* '' */
+.icon-ofertapositivo:before {
+  content: '\e842';
+}
+
+/* '' */
+.icon-pagoseguropositivo:before {
+  content: '\e843';
+}
+
+/* '' */
+.icon-pensandofavspositivo:before {
+  content: '\e844';
+}
+
+/* '' */
+.icon-perfilpositivo:before {
+  content: '\e845';
+}
+
+/* '' */
+.icon-rangopositivo:before {
+  content: '\e846';
+}
+
+/* '' */
+.icon-registrarsepositivo:before {
+  content: '\e847';
+}
+
+/* '' */
+.icon-saldopositivo:before {
+  content: '\e848';
+}
+
+/* '' */
+.icon-salirpositivo:before {
+  content: '\e849';
+}
+
+/* '' */
+.icon-securitybuscador:before {
+  content: '\e84a';
+}
+
+/* '' */
+.icon-seguridadpositivo:before {
+  content: '\e84b';
+}
+
+/* '' */
+.icon-servicioscontratadospositivo:before {
+  content: '\e84c';
+}
+
+/* '' */
+.icon-subirpositivo:before {
+  content: '\e84d';
+}
+
+/* '' */
+.icon-nivelerudito:before {
+  content: '\e84e';
+}
+
+/* '' */
+.icon-nivelaprendiz:before {
+  content: '\e84f';
+}
+
+/* '' */
+.icon-nivelestudioso:before {
+  content: '\e850';
+}
+
+/* '' */
+.icon-nivelfilosofo:before {
+  content: '\e851';
+}
+
+/* '' */
+.icon-nivelintelectual:before {
+  content: '\e852';
+}
+
+/* '' */
+.icon-icmenu-positivo:before {
+  content: '\e855';
+}
+
+/* '' */

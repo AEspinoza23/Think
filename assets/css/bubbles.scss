@@ -1,0 +1,218 @@
+/* Bubble Initial position */
+
+.bubbleOne {
+  left: 20px;
+}
+.bubbleTwo {
+  bottom: 20px;
+}
+.bubbleThree {
+  bottom: 10px;
+  left: 10px;
+}
+.bubbleFour {
+  right: 20px;
+}
+
+/* Bubble reset position animation  */
+
+.resetOne {
+  position: relative;
+  transition: all 2s;
+  transform: translate(20px, 0);
+}
+.resetTwo {
+  position: relative;
+  transition: all 2s;
+  transform: translate(0, -30px);
+}
+.resetCenter {
+  position: relative;
+  transition: all 2s;
+  transform: translate(0, 0);
+}
+.resetThree {
+  position: relative;
+  transition: all 2s;
+  transform: translate(10px, -10px);
+}
+.resetFour {
+  position: relative;
+  transition: all 2s;
+  transform: translate(-30px, 0);
+}
+.resetFive {
+  position: relative;
+  transition: all 2s;
+  transform: translate(0, 10px);
+}
+
+/* up click */
+
+.moveUpOne{
+  position: relative;
+  transition: all 2s;
+  transform: translate(125px, -95px);
+}
+.moveUpTwo{
+  position: relative;
+  transition: all 2s;
+  transform: translate(20px, -110px);
+}
+.moveUpThree{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-80px, -90px);
+}
+.moveUpFour{
+  position: relative;
+  transition: all 2s;
+  transform: translate(70px, -210px);
+}
+.moveUpFive{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-30px, -210px);
+}
+
+/* left click */
+
+.moveLeftOne{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-110px, 80px);
+}
+
+.moveLeftTwo{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-110px, -30px);
+}
+.moveLeftThree{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-220px, -20px);
+}
+.moveLeftFour{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-60px, -140px);
+}
+.moveLeftFive{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-160px, -150px);
+}
+
+/* center click */
+
+.moveCenterOne{
+  position: relative;
+  transition: all 2s;
+  transform: translate(0, 110px);
+}
+
+.moveCenterTwo{
+  position: relative;
+  transition: all 2s;
+  transform: translate(110px, 10px);
+}
+.moveCenterThree{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-100px, 10px);
+}
+.moveCenterFour{
+  position: relative;
+  transition: all 2s;
+  transform: translate(50px, -110px);
+}
+.moveCenterFive{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-50px, -120px);
+}
+
+/* right click */
+
+.moveRightOne{
+  position: relative;
+  transition: all 2s;
+  transform: translate(120px, 90px);
+}
+.moveRightTwo{
+  position: relative;
+  transition: all 2s;
+  transform: translate(230px, -8px);
+}
+.moveRightThree{
+  position: relative;
+  transition: all 2s;
+  transform: translate(120px, -20px);
+}
+.moveRightFour{
+  position: relative;
+  transition: all 2s;
+  transform: translate(170px, -130px);
+}
+.moveRightFive{
+  position: relative;
+  transition: all 2s;
+  transform: translate(70px, -130px);
+}
+
+/* Down left click */
+
+.moveDownLeftOne{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-70px, 220px);
+}
+.moveDownLeftTwo{
+  position: relative;
+  transition: all 2s;
+  transform: translate(40px, 120px);
+}
+.moveDownLeftThree{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-80px, 110px);
+}
+.moveDownLeftFour{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-190px, 120px);
+}
+.moveDownLeftFive{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-120px, 0);
+}
+
+/* Down right click */
+
+.moveDownRightOne{
+  position: relative;
+  transition: all 2s;
+  transform: translate(60px, 220px);
+}
+.moveDownRightTwo{
+  position: relative;
+  transition: all 2s;
+  transform: translate(160px, 120px);
+}
+.moveDownRightThree{
+  position: relative;
+  transition: all 2s;
+  transform: translate(60px, 110px);
+}
+.moveDownRightFour{
+  position: relative;
+  transition: all 2s;
+  transform: translate(-50px, 125px);
+}
+.moveDownRightFive{
+  position: relative;
+  transition: all 2s;
+  transform: translate(110px, 5px);
+}

@@ -1,0 +1,36 @@
+.app-textarea {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+
+  .v-input {
+    width: 100%;
+  }
+
+  > .v-input__control > .v-input__slot {
+    border-radius: 10px !important;
+
+    //TAMAÑO DE FUENTE DEL INPUT
+    > .v-text-field__slot {
+      font-size: 14px;
+    }
+  }
+
+  &--float-label {
+    flex-direction: column;
+
+    .app-textarea__label {
+      min-height: auto;
+      margin-bottom: 8px;
+      border-radius: 10px !important;
+    }
+  }
+
+  &__lang {
+    opacity: 0.3;
+
+    &--active {
+      opacity: 1;
+    }
+  }
+}

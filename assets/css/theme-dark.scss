@@ -1,0 +1,737 @@
+.theme--dark {
+  &.icon-menu-vertical-svg::before {
+    background-image: url('~/assets/icons/svgDark/menuVertical.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-afiliados-svg::before {
+    background-image: url('~/assets/icons/svgDark/afiliados.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-ajustes-svg::before {
+    background-image: url('~/assets/icons/svgDark/ajustes.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-alertaforbidden-svg::before {
+    background-image: url('~/assets/icons/svgDark/alertaForbidden.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-alertainfos-svg::before {
+    background-image: url('~/assets/icons/svgDark/alertaInfo.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-alertasuccess-svg::before {
+    background-image: url('~/assets/icons/svgDark/alertaSuccess.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-alertawarning-svg::before {
+    background-image: url('~/assets/icons/svgDark/alertaWarning.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-blankstar-svg::before {
+    background-image: url('~/assets/icons/svgDark/blankStar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-blankstarnegative-svg::before {
+    background-image: url('~/assets/icons/svgDark/blankStarNegative.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-brokerbuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/brokerBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-buscar-svg::before {
+    background-image: url('~/assets/icons/svgDark/buscar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-calendario-svg::before {
+    background-image: url('~/assets/icons/svgDark/calendario.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-camara-svg::before {
+    background-image: url('~/assets/icons/svgDark/camara.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-close-svg::before {
+    background-image: url('~/assets/icons/svgDark/close.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-comercio-svg::before {
+    background-image: url('~/assets/icons/svgDark/comercio.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-compartir-svg::before {
+    background-image: url('~/assets/icons/svgDark/compartir.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-cono-svg::before {
+    background-image: url('~/assets/icons/svgDark/cono.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-consultingbuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/consultingBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-consultor-svg::before {
+    background-image: url('~/assets/icons/svgDark/consultor.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-dashboard-svg::before {
+    background-image: url('~/assets/icons/svgDark/dashboard.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-databuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/dataBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-datoscliente-svg::before {
+    background-image: url('~/assets/icons/svgDark/datosCliente.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-datospersonales-svg::before {
+    background-image: url('~/assets/icons/svgDark/datosPersonales.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-detalles-svg::before {
+    background-image: url('~/assets/icons/svgDark/detalles.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-documentos-svg::before {
+    background-image: url('~/assets/icons/svgDark/documentos.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-editar-svg::before {
+    background-image: url('~/assets/icons/svgDark/editar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-eliminar-svg::before {
+    background-image: url('~/assets/icons/svgDark/eliminar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-energybuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/energyBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-entrar-svg::before {
+    background-image: url('~/assets/icons/svgDark/entrar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-enviar-svg::before {
+    background-image: url('~/assets/icons/svgDark/enviar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-escanerQr-svg::before {
+    background-image: url('~/assets/icons/svgDark/escanerQR.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-eurosahorrados-svg::before {
+    background-image: url('~/assets/icons/svgDark/eurosAhorrados.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-face-id-svg::before {
+    background-image: url('~/assets/icons/svgDark/face-id.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-filtros-svg::before {
+    background-image: url('~/assets/icons/svgDark/filtros.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-fullstarnegative-svg::before {
+    background-image: url('~/assets/icons/svgDark/fullStarNegative.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-fullstarpositive-svg::before {
+    background-image: url('~/assets/icons/svgDark/fullStarPositive.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-galeria-svg::before {
+    background-image: url('~/assets/icons/svgDark/galeria.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-goback-svg::before {
+    background-image: url('~/assets/icons/svgDark/goBack.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-halfstarnegative-svg::before {
+    background-image: url('~/assets/icons/svgDark/halfStarNegative.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-halfstarpositive-svg::before {
+    background-image: url('~/assets/icons/svgDark/halfStarPositive.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-hucha-svg::before {
+    background-image: url('~/assets/icons/svgDark/hucha.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-invitar-svg::before {
+    background-image: url('~/assets/icons/svgDark/invitar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-localizacion-svg::before {
+    background-image: url('~/assets/icons/svgDark/localizacion.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-mensaje-svg::before {
+    background-image: url('~/assets/icons/svgDark/mensaje.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-menu-svg::before {
+    background-image: url('~/assets/icons/svgDark/menu.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-mobileBuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/mobileBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-más-svg::before {
+    background-image: url('~/assets/icons/svgDark/más.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-nivelaprendiz-svg::before {
+    background-image: url('~/assets/icons/svgDark/nivelAprendiz.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-nivelerudito-svg::before {
+    background-image: url('~/assets/icons/svgDark/nivelErudito.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-nivelestudioso-svg::before {
+    background-image: url('~/assets/icons/svgDark/nivelEstudioso.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-nivelfilosofo-svg::before {
+    background-image: url('~/assets/icons/svgDark/nivelFilosofo.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-nivelintelectual-svg::before {
+    background-image: url('~/assets/icons/svgDark/nivelIntelectual.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionsistema-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionSistema.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionafiliados-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionAfiliados.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacioncontrato-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionContrato.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionexpirar-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionExpirar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionpensados-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionPensados.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacion-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacion.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionrango-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionRango.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionsaldo-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionSaldo.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-notificacionvalorar-svg::before {
+    background-image: url('~/assets/icons/svgDark/notificacionValorar.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-nover-svg::before {
+    background-image: url('~/assets/icons/svgDark/noVer.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-oferta-svg::before {
+    background-image: url('~/assets/icons/svgDark/oferta.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-pagoseguro-svg::before {
+    background-image: url('~/assets/icons/svgDark/pagoSeguro.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-pensandofavs-svg::before {
+    background-image: url('~/assets/icons/svgDark/pensandoFavs.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-perfil-svg::before {
+    background-image: url('~/assets/icons/svgDark/perfil.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-rango-svg::before {
+    background-image: url('~/assets/icons/svgDark/rango.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-registrarse-svg::before {
+    background-image: url('~/assets/icons/svgDark/registrarse.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-saldo-svg::before {
+    background-image: url('~/assets/icons/svgDark/saldo.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-salir-svg::before {
+    background-image: url('~/assets/icons/svgDark/salir.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-securitybuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/securityBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-seguridad-svg::before {
+    background-image: url('~/assets/icons/svgDark/seguridad.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-servicioscontratados-svg::before {
+    background-image: url('~/assets/icons/svgDark/serviciosContratados.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-subir-svg::before {
+    background-image: url('~/assets/icons/svgDark/subir.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-terminoslegales-svg::before {
+    background-image: url('~/assets/icons/svgDark/terminosLegales.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-todobuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/todoBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-travelbuscador-svg::before {
+    background-image: url('~/assets/icons/svgDark/travelBuscador.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-user-svg::before {
+    background-image: url('~/assets/icons/svgDark/user.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-valoraciones-svg::before {
+    background-image: url('~/assets/icons/svgDark/valoraciones.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-ver-svg::before {
+    background-image: url('~/assets/icons/svgDark/ver.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-ticket-svg::before {
+    background-image: url('~/assets/icons/svgDark/ticket.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-logo-svg::before {
+    background-image: url('~/assets/icons/svgDark/logo.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-icon-svg::before {
+    background-image: url('~/assets/icons/svgDark/icon.svg');
+    background-size: cover;
+    height: 22px !important;
+    width: 25px !important;
+  }
+
+  &.icon-broker-svg::before {
+    background-image: url('~/assets/icons/svgDark/broker.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-consulting-svg::before {
+    background-image: url('~/assets/icons/svgDark/consulting.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-data-svg::before {
+    background-image: url('~/assets/icons/svgDark/data.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-energy-svg::before {
+    background-image: url('~/assets/icons/svgDark/energy.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-mobile-svg::before {
+    background-image: url('~/assets/icons/svgDark/mobile.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-security-svg::before {
+    background-image: url('~/assets/icons/svgDark/security.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-travel-svg::before {
+    background-image: url('~/assets/icons/svgDark/travel.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-copy-svg::before {
+    background-image: url('~/assets/icons/svgDark/copy.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.icon-download-svg::before {
+    background-image: url('~/assets/icons/svgDark/download.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+  
+  &.icon-cart-svg::before {
+    background-image: url('~/assets/icons/svgDark/carrito.svg');
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+  }
+
+  &.icon-shop-point::before {
+    background-image: url('~/assets/icons/svgDark/shopPoint.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-whatsapp-svg::before {
+    background-image: url('~/assets/icons/svgDark/whatsappicon.svg');
+    background-size: cover;
+    height: 22px;
+    width: 25px;
+  }
+
+  &.icon-union-svg::before {
+    background-image: url('~/assets/icons/svgDark/union.svg');
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+  }
+
+  &.icon-contacto-svg::before {
+    background-image: url('~/assets/icons/svgDark/contacto.svg');
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+  }
+}
+
+
+.icon {
+  &--uxs::before {
+    content: '';
+    height: 8px !important;
+    width: 8px !important;
+  }
+
+  &--xs::before {
+    content: '';
+    height: 14px !important;
+    width: 14px !important;
+  }
+
+  &--sm::before {
+    content: '';
+    height: 18px !important;
+    width: 18px !important;
+  }
+
+  &--md::before {
+    content: '';
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  &--lg::before {
+    content: '';
+    height: 24px !important;
+    width: 24px !important;
+  }
+
+  &--xl::before {
+    content: '';
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  &--mxl::before {
+    content: '';
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  &--exl::before {
+    content: '';
+    height: 45px !important;
+    width: 45px !important;
+  }
+
+  &--exxl::before {
+    content: '';
+    height: 80px !important;
+    width: 80px !important;
+  }
+}

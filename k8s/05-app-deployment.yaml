@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: __NAMESPACE__
+  name: spa
+  labels:
+    app: spa
+spec:
+  selector:
+    matchLabels:
+      app: spa
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: spa
+    spec:
+      imagePullSecrets:
+        - name: gitlab-registry-app
+      containers:
+        - name: spa
+          image: __IMAGE_NAME_VERSION__
+          imagePullPolicy: "Always"
+          ports:
+            - containerPort: 80
+

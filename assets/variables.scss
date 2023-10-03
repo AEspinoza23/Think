@@ -1,0 +1,30 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+$body-font-family: 'Roboto', sans-serif !default;
+$btn-text-transform: none;
+$material-light: ('background': #F0F0F0);
+$material-dark: (
+  'background': #1f2b33
+);
+
+
+// switch
+$switch-track-inset-opacity: 1;
+$switch-track-opacity: 1;
+$switch-disabled-opacity: 1;
+$switch-dirty-offset-x: 25px;
+
+// sheet
+$sheet--outlined-border-width: 10px !important;
+
+// tabs
+$tabs-bar-height: 28px;
+$tabs-item-min-width: 75px;
+$tabs-item-max-width: 75px;
+$tab-font-size: 12px;
+
+// expansion panels
+$expansion-panel-header-min-height: 35px !important;
+$expansion-panel-active-header-min-height: 50px !important; 

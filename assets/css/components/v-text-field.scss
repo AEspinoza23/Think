@@ -1,0 +1,66 @@
+.app-text-field {
+  display: flex;
+  align-items: flex-start;
+
+  &.app-text-field--dense {
+    .app-text-field__label {
+      min-height: 40px;
+    }
+  }
+
+  > .v-input__control {
+    > .v-input__slot {
+      border-radius: 10px !important;
+      border: 0.5px solid #c4c4c4;
+      box-sizing: border-box;
+      //TAMAÑO DE FUENTE DEL INPUT
+      > .v-text-field__slot {
+        font-size: 14px;
+      }
+    }
+
+    > .v-text-field__details {
+      padding: 0 !important;
+    }
+  }
+
+  &__input {
+    &--small {
+      > .v-input__control > .v-input__slot {
+        max-width: 157px;
+      }
+    }
+
+    &--large {
+      > .v-input__control > .v-input__slot {
+        max-width: 335px;
+      }
+    }
+
+    &.v-input--dense.v-text-field--outlined.v-text-field--outlined {
+      &:not(.v-text-field--solo) {
+        .v-input__prepend-outer {
+          margin-top: 6px;
+        }
+      }
+
+      > .v-input__control > .v-input__slot {
+        min-height: 34px;
+      }
+    }
+
+    &.v-text-field--outlined {
+      &.v-input {
+        border-radius: 10px;
+
+        &--has-state fieldset {
+          border: 10px solid currentColor;
+        }
+
+        &--is-focused fieldset {
+          border: 10px solid currentColor;
+        }
+      }
+    }
+  }
+}

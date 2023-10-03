@@ -1,0 +1,8 @@
+ [{
+ 	"relation": ["delegate_permission/common.handle_all_urls"],
+ 	"target": {
+ 		"namespace": "android_app",
+ 		"package_name": "com.smartandfun.piensanetwork",
+ 		"sha256_cert_fingerprints": ["1F:FF:2A:80:9D:8B:25:49:52:F4:53:F4:FD:71:4F:79:7A:2B:80:A8:C4:6D:C5:54:31:7A:F8:98:05:F9:AC:D2", "60:00:49:70:29:97:D9:A6:30:7F:C3:FB:49:9B:95:4B:45:53:78:10:2F:46:82:07:CC:1C:D6:AA:73:73:43:53", "1B:51:8B:F9:31:CC:05:BD:18:83:24:B7:0E:44:D8:5E:AA:88:47:46:32:EA:CB:A1:D7:71:55:6C:B1:8B:28:8F", "91:0C:ED:A9:FA:17:B8:84:86:C4:71:7F:26:F2:AB:4A:A2:D3:E1:65:2C:81:E7:CD:0A:32:13:3F:59:BE:FB:29"]
+ 	}
+ }]

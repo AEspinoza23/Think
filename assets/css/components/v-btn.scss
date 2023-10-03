@@ -1,0 +1,59 @@
+.button-primary {
+  background: #00BBBF;
+  background: -moz-linear-gradient(270.16deg, #00BBBF 0.18%, #00CDAC 0.18%, #00BBBF 99.88%);
+  background: -webkit-linear-gradient(270.16deg, #00BBBF 0.18%, #00CDAC 0.18%, #00BBBF 99.88%);
+  background: linear-gradient(270.16deg, #00BBBF 0.18%, #00CDAC 0.18%, #00BBBF 99.88%);
+}
+
+.button-text {
+  background: #00BBBF;
+  background: -moz-linear-gradient(270.16deg, #00BBBF 0.18%, #00CDAC 0.18%, #00BBBF 99.88%);
+  background: -webkit-linear-gradient(270.16deg, #00BBBF 0.18%, #00CDAC 0.18%, #00BBBF 99.88%);
+  background: linear-gradient(270.16deg, #00BBBF 0.18%, #00CDAC 0.18%, #00BBBF 99.88%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-outlined.v-btn--outlined {
+  border: thin solid #00BBBF;
+}
+
+.button-text-disabled {
+  background: #B7B6BC;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-outlined-disabled.v-btn--outlined {
+  border: thin solid #B7B6BC;
+  color: #B7B6BC;
+}
+
+.degraded {
+  background: rgb(0, 112, 115);
+  background: -moz-linear-gradient(89.87deg, #007073 5.54%, #80DDDF 107.76%);;
+  background: -webkit-linear-gradient(89.87deg, #007073 5.54%, #80DDDF 107.76%);;
+  background: linear-gradient(89.87deg, #007073 5.54%, #80DDDF 107.76%);;
+}
+
+.degradedDark {
+  background: rgb(0, 112, 115);
+  background: -moz-linear-gradient(360deg, #16222C 22.96%, #00BBBF 100%);;
+  background: -webkit-linear-gradient(360deg, #16222C 22.96%, #00BBBF 100%);;
+  background: linear-gradient(360deg, #16222C 22.96%, #00BBBF 100%);;
+}
+
+.degradedRadial {
+  background: radial-gradient(139.04% 100% at 53.38% 0%, #00BBBF 0%, #1C2D38 47.71%, #1C2D38 81.04%, #0D7A81 100%)
+}
+
+.degradedRed {
+  background: rgb(110, 8, 8);
+  background: -moz-linear-gradient(89.87deg, #730000 5.54%, #F27C6C 107.76%);
+  background: -webkit-linear-gradient(89.87deg, #730000 5.54%, #F27C6C 107.76%);
+  background: linear-gradient(89.87deg, #730000 5.54%, #F27C6C 107.76%);
+}

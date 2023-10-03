@@ -1,0 +1,37 @@
+.blur {
+  &-container-card {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+  }
+  &-normal {
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+  }
+
+  &-mini-card {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+  }
+}
+
+.bodybackground {
+  background-image: url('https://www.xtrafondos.com/descargar.php?id=3963&resolucion=2560x1440');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 20px 40px;
+}

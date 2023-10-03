@@ -1,0 +1,21 @@
+.shades {
+  &-general {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  &-panels {
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  &-services {
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.21) !important;
+  }
+
+  &-small-card {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  &-focus-button {
+    box-shadow: -0.91358px 1.82716px 3.65432px rgba(0, 0, 0, 0.25) !important;
+  }
+}

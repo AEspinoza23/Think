@@ -1,0 +1,51 @@
+
+.app-select {
+  > .v-input__control {
+
+    > .v-input__slot {
+      border-radius: 10px !important;
+      font-size: 14px;
+
+    }
+
+    > .v-text-field__details {
+      padding: 0 !important;
+    }
+  }
+
+
+  &__input {
+    &--small {
+      > .v-input__control > .v-input__slot {
+        max-width: 127px;
+      }
+    }
+
+    &--medium {
+      > .v-input__control > .v-input__slot {
+        max-width: 171px;
+      }
+    }
+
+    &--large {
+      > .v-input__control > .v-input__slot {
+        max-width: 335px;
+      }
+    }
+  }
+}
+
+.v-menu__content {
+  .v-list {
+    padding: 0;
+
+    .v-list-item--active {
+      background-color: currentColor;
+
+      .v-list-item__title {
+        color: white
+      }
+    }
+  }
+}
+
