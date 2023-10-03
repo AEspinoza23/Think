@@ -194,7 +194,7 @@ export default {
       if (process.env.NODE_ENV === 'development' || process.env.ENVIROMENT === 'development') {
         return `https://piensa-pre.sfsl.es/es/offer/${this.slug}`;
       }
-      return `https://app.piensanetwork.com/es/offer/${this.slug}`;
+      return `https://piensa-pre.sfsl.es/es/offer/${this.slug}`;
     },
     referralCode() {
       if (this.$route.query.referral_code) {

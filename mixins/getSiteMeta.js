@@ -1,5 +1,5 @@
 const type = "website";
-const url = "https://app.piensanetwork.com/es/offers";
+const url = "https://piensa-pre.sfsl.es/es/offers";
 const title = "Nueva Oferta";
 const description = "Nueva oferta en piensa";
 const mainImage = "~/assets/images/ilustrations/LogoInicio%20Light.webp";

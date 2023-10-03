@@ -195,8 +195,8 @@ export default {
 
     return $axios
       .get(`/api/offers/public-offers/${params.slug}/get_link_details/`, {
-        baseURL: 'https://app.piensanetwork.com',
-        browserBaseURL: 'https://app.piensanetwork.com'
+        baseURL: 'https://piensa-pre.sfsl.es',
+        browserBaseURL: 'https://piensa-pre.sfsl.es'
       })
       .then((response) => {
         const data = (response && response.data) || {}
@@ -257,7 +257,7 @@ export default {
       if (process.env.NODE_ENV === 'development' || process.env.ENVIROMENT === 'development') {
         return `https://piensa-pre.sfsl.es/es/offer/${this.slug}`;
       }
-      return `https://app.piensanetwork.com/es/offer/${this.slug}`;
+      return `https://piensa-pre.sfsl.es/es/offer/${this.slug}`;
     },
     imageSrc() {
       if (this.offer.image) {

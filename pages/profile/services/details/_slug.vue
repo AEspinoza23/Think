@@ -59,7 +59,7 @@ export default {
       url = 'https://piensa-pre.sfsl.es/';
       /* url = 'http://localhost:3000/'; */
     } else {
-      url = 'https://app.piensanetwork.com/';
+      url = 'https://piensa-pre.sfsl.es/';
     }
     try {
       const response = await $axios({

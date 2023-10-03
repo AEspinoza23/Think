@@ -78,7 +78,7 @@ export default {
       if (process.env.NODE_ENV === 'development' || process.env.ENVIROMENT === 'development') {
         return `https://piensa-pre.sfsl.es/es/register/?referral_code=${this.referralCode}`
       }
-      return `https://app.piensanetwork.com/es/register/?referral_code=${this.referralCode}`
+      return `https://piensa-pre.sfsl.es/es/register/?referral_code=${this.referralCode}`
     }
   },
   mounted() {

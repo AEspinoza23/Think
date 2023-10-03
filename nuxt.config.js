@@ -121,7 +121,7 @@ export default {
     baseURL:
       process.env.NODE_ENV === 'development'
         ? 'https://piensa-pre.sfsl.es'
-        : 'https://app.piensanetwork.com',
+        : 'https://piensa-pre.sfsl.es',
     proxy: process.env.NODE_ENV === 'development'
   },
 
